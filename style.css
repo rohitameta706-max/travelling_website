@@ -1,0 +1,96 @@
+@import url(
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+});
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.its_logo {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(0, 51, 102) ;
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+    position: sticky;
+    font-weight: 700;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.its_navbar{
+    color: white;
+    display: flex;
+}
+
+/*Hero Section*/
+
+.hero {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_image {
+    display: flex;
+    justify-content: center;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tag {
+    background-color: #149f39;
+    color: white;
+    padding: 5px 10px;
+    align-self: flex-start;
+}
+
+.hero_content h1 {
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.explore_button {
+    background: #ffc066;
+    align-self: flex-start;
+}
+
+
+.its_services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00008A;
+    color: white;
+    gap: 100px;
+    font-weight: 600;
+    font-size:xxx-large;
+    height: 100px;
+    width: auto;
+}
